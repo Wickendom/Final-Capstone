@@ -161,7 +161,7 @@ This menu should be inside the while loop. Be creative!
 request = ""
 while request != "quit":
     request = input("Please select an option from the following list. "
-            "read inventory/capture/view all/restock/view highest/search/values/quit s").lower()
+            "read inventory/capture/view all/restock/view highest/search/values/quit").lower()
     if request == "read inventory":
         read_shoes_data()
     elif request == "capture":
